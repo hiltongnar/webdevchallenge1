@@ -1,0 +1,26 @@
+body {
+  background : lightblue;
+}
+
+.bonus-component {
+  background-color : white;
+  height : 300px;
+  margin : 100px auto;
+  width : 500px;
+  border-radius: 30px;
+}
+
+.top-row {
+  margin : 35px;
+}
+
+.fl {
+  float : left;
+}
+
+.fr {
+  float : right;
+}
+.row {
+  clear : both;
+}
