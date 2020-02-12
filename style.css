@@ -1,5 +1,6 @@
 body {
-  background : lightblue;
+  background : #EDF6FF;
+  font-size: 22px;
 }
 
 .bonus-component {
@@ -8,10 +9,15 @@ body {
   margin : 100px auto;
   width : 500px;
   border-radius: 30px;
+  padding: 15px;
+  font-family: serif;
+  box-shadow: 0 10px 6px -6px #777;
 }
 
 .top-row {
   margin : 35px;
+  padding-top: 10px;
+  text-align: justify;
 }
 
 .fl {
@@ -21,6 +27,56 @@ body {
 .fr {
   float : right;
 }
-.row {
-  clear : both;
+.row-two{
+  margin : 35px;
+  padding : 10px;
+}
+
+.bonus-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.five-hundred{
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding-top: 2px 40px;
+}
+
+.red-f {
+  color : red;
+}
+
+.dark-g {
+  color : #00D38C;
+}
+
+.gold {
+  color : #FFBC01;
+}
+.gray {
+  color : #ABAEC1;
+}
+.sea-green {
+  color : #C5F8E7;
+}
+.powerbar {
+  margin: 35px;
+  background-color: #C5F8E7;
+}
+
+
+.powerbar div {
+  height : 40px;
+  width : 40px;
+}
+
+.powerbar-1 {
+  background-color: #00D38C;
+}
+.powerbar-3 {
+  background-color: #FFBC01;
 }
